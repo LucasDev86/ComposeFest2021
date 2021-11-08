@@ -31,7 +31,7 @@ fun PhotographerCard(modifier: Modifier = Modifier) {
             .padding(8.dp)
             .clip(RoundedCornerShape(4.dp))
             .background(color = MaterialTheme.colors.surface)
-            .clickable(onClick = { /* Ignoring onClick */ })
+            .clickable(onClick = {  })
             .padding(16.dp)
     ) {
         Surface(

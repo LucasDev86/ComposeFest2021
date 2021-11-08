@@ -20,7 +20,7 @@ fun ConstraintLayoutContent() {
         val (button, text) = createRefs()
 
         Button(
-            onClick = { /* Do something */ },
+            onClick = {  },
             modifier = Modifier.constrainAs(button) {
                 top.linkTo(parent.top, margin = 16.dp)
             }
@@ -46,7 +46,7 @@ fun DecoupledConstraintLayout() {
 
         ConstraintLayout(constraints) {
             Button(
-                onClick = { /* Do something */ },
+                onClick = { },
                 modifier = Modifier.layoutId("button")
             ) {
                 Text("Button")
@@ -77,7 +77,7 @@ fun ConstraintLayoutContentExample2() {
         val (button1, button2, text) = createRefs()
 
         Button(
-            onClick = { /* Do something */ },
+            onClick = {  },
             modifier = Modifier.constrainAs(button1) {
                 top.linkTo(parent.top, margin = 16.dp)
             }
@@ -92,7 +92,7 @@ fun ConstraintLayoutContentExample2() {
 
         val barrier = createEndBarrier(button1, text)
         Button(
-            onClick = { /* Do something */ },
+            onClick = {  },
             modifier = Modifier.constrainAs(button2) {
                 top.linkTo(parent.top, margin = 16.dp)
                 start.linkTo(barrier)

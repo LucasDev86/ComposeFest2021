@@ -47,7 +47,7 @@ fun LayoutsCodelab() {
                     Text(text = "LayoutsCodelab")
                 },
                 actions = {
-                    IconButton(onClick = { /* doSomething() */ }) {
+                    IconButton(onClick = { }) {
                         Icon(Icons.Filled.Favorite, contentDescription = null)
                     }
                 }
