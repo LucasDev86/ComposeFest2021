@@ -1,7 +1,3 @@
-# ComposeFest2021
-Using state in Jetpack Compose 본 폴더를 Android Studio를 이용해서 열어주세요.
-작업을 완료하고, push 해주세요.
-
 # Using State in Jetpack Compose Codelab
 
 This folder contains the source code for the [Using State in Jetpack Compose codelab](https://developer.android.com/codelabs/jetpack-compose-state).
